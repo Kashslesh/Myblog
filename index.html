@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myblog</title>
+    <link rel="stylesheet" href="/style/app.css">
+    <link rel="stylesheet" href="/style/reste.css">
+</head>
+<body>
+    <header class="header__navigation">
+        <nav class="header__nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><a class="nav__link" href="#section--1">Blog</a></li>
+                <li class="nav__li"><a class="nav__link" href="#section--2">Musique</a></li>
+                <li class="nav__li"><a class="nav__link" href="#section--3">Livres</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section section__main" >
+        <article class="section__main__photo">
+            <img src="img/developpement.jpg" alt="developpement">
+        </article>
+        <article>
+            <div class="article__bonjour">
+                <div class="bonjour">
+                    <h2>Bonjour, je m'appelle Ivan<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>Nesciunt inventore est illo odio ea qui doloribus <br>distinctio velit deserunt eos assumenda quam, <br>expedita nisi ullam, vero dolores deleniti cumque quis.</h2>
+                </div>
+                <div class="rectangle">
+                    <h2 class="article__bienvenue">Bienvenue <br>
+                    dans mon blog</h2>
+                </div>
+                </div>
+        </article>
+    </section>
+    <section class="section section__interes" id="section--1">
+        <article class="section__photo">
+            <img src="img/musique.jpg" alt="musique">
+        </article>
+        <article class="section__text">
+            <h3 id="titre">Titre</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, odio vel aliquid cupiditate qui iusto tempora a maxime cumque earum delectus dolore obcaecati nulla, aspernatur fugiat dolorum eaque. Vero, ab!</p>            
+            <button class="section__btn">Lire l'article</button>
+        </article>
+    </section>
+    <section class="section section__interes" id="section--2">
+        <article class="section__text">
+            <h3 id="titre">Titre</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, odio vel aliquid cupiditate qui iusto tempora a maxime cumque earum delectus dolore obcaecati nulla, aspernatur fugiat dolorum eaque. Vero, ab!</p>
+            <button class="section__btn">Lire l'article</button>
+        </article>
+        <article class="section__photo">
+            <img src="img/livres.jpg" alt="livres">
+        </article>
+    </section>
+    <section class="section section__interes" id="section--3">
+        <article class="section__rectangle rectangle__font section__text">
+            <h3 id="titre" class="section__titre__rectangle rec__titre">Titre</h3>
+            <p class="section__titre__rectangle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, odio vel aliquid cupiditate qui iusto tempora a maxime cumque earum delectus dolore obcaecati nulla, aspernatur fugiat dolorum eaque. Vero, ab!</p>            
+            <button class="section__btn section__titre__rectangle">Lire l'article</button>
+        </article>
+        <article class="section__photo">
+            <img id="rectangle__photo" src="img/adventure.jpg" alt="adventure">
+        </article>
+    </section>
+    <script src="/javascript/app.js"></script>
+</body>
+</html>
